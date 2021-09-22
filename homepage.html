@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="fontawesome/"> -->
+    <title>Homepage</title>
+    <style>
+        body {
+            background-color: rgb(71, 67, 67);
+            color: #fff;
+        }
+
+        .head {
+            float: left;
+            list-style-type: none;
+            margin-left: -40px;
+            margin-top: -15px;
+            margin-bottom:10px;
+            border: 1px ;
+            padding-right: 30px;
+            padding-top:10px;
+            background-color: rgb(88, 79, 79);
+            border-bottom:1px solid rgb(110, 109, 109);
+        }
+         
+        li{
+            float: left ;
+        }
+
+        .fb {
+            border-radius: 600px;
+            width: 35px;
+            height: 35px;
+        }
+
+        li input {
+            background-image: url(searchicon.png);
+            border-radius: 20px;
+            background-size: 22px;
+            background-color: rgb(71, 67, 67);
+            background-repeat: no-repeat;
+            color: #fff;
+            width: 180px;
+            height: 23px;
+            margin-top: 5px;
+            padding-left: 25px;
+            margin-left: 7px;
+            margin-right: 72px;
+            outline: none;
+        }
+
+        .icons img{
+            border-radius: 100px;
+            width: 35px; height: 35px;
+            margin-left: 50px;
+            margin-right: 25px;
+        }
+
+        #game{
+            margin-right: 40px;
+        }
+
+        .righticon img{
+            border-radius: 100px;
+            width: 30px; height: 30px;
+            margin-left: 19px;
+            float: right;
+        }
+        #right3{
+            margin-right: 17px;
+        }
+
+        .left{
+            float: left;
+            margin-right: 100px;
+        }
+
+        .imgicons img{
+            border-radius: 100px;
+            width: 50px; height: 50px;
+            color: #fff;
+            text-align: center;
+        }
+        .imgicons{
+            color: white;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        .leftnames{
+            margin-left: -90px;
+            margin-top: -50px;
+            color: white;
+        }
+
+        .leftnames2{
+            margin-left: 60px;
+            margin-top: -50px;
+            color: white;
+            text-align: justify;
+        }
+
+        .middle img{
+            margin-top: 18px;
+            width: 130px; height: 300px;
+            border-radius: 50px;
+            margin-left: -50px;
+        }
+
+        #middle2 {
+            width: 50px; height: 50px;
+            border-radius: 100px;
+            position: relative;
+            top: -230px;
+            left: -60px;
+            border:3px solid blue;
+        }
+
+        .identity{
+            position: relative;
+            top: -15px;
+            left: -100px;
+        }
+
+        .inmiddle{
+            margin-left: 390px;
+            margin-top: 20px;
+            color: white;
+            border: 1px solid none;
+            width: 450px;
+            height: 210px;
+            border-radius: 10px;
+            padding-left: 10px;
+            padding-top: 7px;
+            background-color: rgb(112, 104, 104);
+        }
+
+        .insidemiddle img{
+            border-radius: 100px;
+            width: 50px; height: 50px;
+        }
+
+        #login{
+            width: 70px; height: 50px;
+            border-radius: 0px;
+            margin-left: 200px;
+            padding-top:-5px;
+        }   
+
+        #ok{
+            margin-top: -53px;
+            color: white;
+            background-color: blue;
+            border: 6px solid blue;
+            border-radius: 5px;
+            margin-left: 410px;
+            margin-right: 600px;
+            text-align: center;
+        }
+
+        .notnow{
+            margin-top: -30px;
+            color: white;
+            background-color: rgb(58, 55, 55);
+            border: 6.5px solid rgb(58, 55, 55);
+            border-radius: 5px;
+            margin-left: 620px;
+            margin-right: 380px;
+            text-align: center;
+        }
+
+        .lastmid{
+            border: 1px none ;
+            border-radius: 6px;
+            background-color: rgb(112, 104, 104);
+            margin-left: 390px;
+            margin-right: 355px;
+            margin-top: 35px;
+        }
+
+        #chamber{
+            color: white;
+            background-color: rgb(58, 55, 55);
+            border: 10px solid rgb(58, 55, 55);
+            border-radius: 30px;
+            margin-left: 449px;
+            margin-right: 360px;
+            margin-top: -63px;
+        }
+
+        .cicon{
+            border-radius: 100px;
+            width: 50px; height: 50px;
+        }
+        .end1{
+            border: 1px solid rgb(112, 104, 104);
+            background-color: rgb(112, 104, 104);
+            margin-right: 10px;
+            margin-left: 30px;
+            color: white;
+            float: right;
+            margin-top: -625px;
+            border-radius: 10px;
+            padding-top: 13px;
+            padding-left: 5px;
+            padding-right: 15px;
+            padding-bottom: -10px;
+        }
+
+        .end1 img{
+            border-radius: 100px;
+            width:50px ; height:50px ;   
+        }
+
+        .end2{
+            float:right ;
+            margin-right: 7px;
+            color: whitesmoke;
+            margin-top: -500px;
+        }
+
+        .end2 img{
+            border-radius: 100px;
+            width: 50px; height: 50px;
+            padding-bottom: 10px;
+        }
+
+        .finish{
+            margin-top: -30px;
+        }
+
+        .finish1{
+            margin-top: -37px;
+        }
+        .finish2{
+            margin-top: -43px;
+            margin-right: 5px;
+            font-size: 15px;
+        }
+
+        .last{
+            float: right;
+            list-style-type: none;
+            margin-top: -280px;
+        }
+
+        #contact{
+            margin-right: 70px;
+        }
+
+        .lastright2 img{
+            border-radius: 100px;
+            width: 20px; height: 20px;
+            margin-left: 20px;
+            margin-right: 5px;
+        }
+
+        .friends{
+            float: right;
+            margin-top: -240px;
+            margin-right: 147px;
+        }
+
+        .friends img{
+            border-radius: 100px;
+            width: 50; height: 50px;
+        }
+
+        hr{
+            border: 0.5px solid rgb(110, 109, 109);
+        }
+
+        #contactname{
+            display: inline-flex;
+
+        }
+
+    </style>
+</head>
+
+<div>
+    <ul class="head">
+        <li> <img class="fb" src="fbicoon.png" alt="fb image"> </li>
+        <li> <input type="text" value="search facebook" placeholder="search.."> </li>
+
+        <li class="icons"> <img src="homeicon.png" alt="home pic"> </li>
+        <li class="icons"> <img src="tvicon.png" alt="tv pic"> </li>
+        <li class="icons"> <img src="marketicon.png" alt="market pic"> </li>
+        <li class="icons"> <img src="group.jpg" alt="Group pic"> </li>
+        <li class="icons" id="game"> <img src="gaming.jpg" alt="gaming world"> </li>
+
+        <li class=" righticon"> <img src="cicon.jpg">  </li>
+        <li class=" righticon"> <img src="Icon.PNG" alt=""> </li>
+        <li class=" righticon"> <img src="messenger.png" alt=""> </li>
+        <li class=" righticon"> <img src="belll.jpg" alt=""> </li>
+        <li class=" righticon" id="right3"> <img src="dropdownicon.png" alt=""> </li>
+    </ul>
+</div>
+    
+<div>   
+    <div class="left">
+        <p> <a href="" class="imgicons"> <img src="cicon.jpg" alt=""> <center class="leftnames2"> Chamberlain Ezigbo </a> </center> </p>
+        <p> <a href="" class="imgicons"> <img src="covid19.jpg" alt=""><center class="leftnames2"> COVID-19 Information Centre </a> </center> </p>
+        <p> <a href="" class="imgicons"> <img src="friends.jpg" > <center class="leftnames"> Friends </a> </center> </p>
+        <p> <a href="" class="imgicons"> <img src="job.jpg" alt=""> <center class="leftnames"> Jobs </a> </center> </p>
+        <p> <a href="" class="imgicons"> <img src="group.jpg" alt=""> <center class="leftnames"> Groups </a> </center> </p>
+        <p> <a href="" class="imgicons"> <img src="marketicon.png" alt=""> <center class="leftnames"> Marketplace </a> </center> </p>
+        <p> <a href="" class="imgicons"> <img src="tv2icon.jpg" alt=""> <center class="leftnames"> Watch </a> </center> </p>
+        <p> <a href="" class="imgicons"> <img src="dropicon.png"> <center class="leftnames"> see more </a> </center> </p>
+        <hr><p class="imgicons">  Your shortcuts </p>
+        <p> <a href="" class="imgicons"> <img src="family.jpg" alt=""><center class="leftnames2"> friends Community</a> </center> </p>
+        <p> <a href="" class="imgicons"> <img src="rad5.jpg.jpg" alt=""> <center class="leftnames2">Digital Transformation W/RAD5 <br> Academy </a> </center></p>
+        <p> <a href="" class="imgicons"> <img src="forextraders.jpg" alt=""> <center class="leftnames2"> Forex and Stock Trading <br> Community </a> </center></p>
+  </div>
+
+    <div >
+        <p class="middle">
+           <a> <img src="bugatti1.jpg" alt=""> <img id="middle2" src="kenneth.jpg"> <strong class="identity"> Kenneth </strong> </a>
+           <a> <img src="front  backend.jpg"> <img id="middle2" src="collins.jpg"> <strong class="identity"> Collins </strong> </a> 
+           <a> <img src="ferrari3.jpg" alt=""> <img id="middle2" src="stanley.jpg"> <strong class="identity"> Stanley </strong> </a> 
+           <a> <img src="lambo1.jpg" alt=""> <img id="middle2" src="victor.jpg"> <strong class="identity"> Victor </strong> </a> 
+        </p>
+        <p class=" inmiddle">
+            <a class="insidemiddle"> <img src="fbicoon.png" id="fb"> <br> <img src="login.png" id="login"> </a>
+           <br> <strong> Remember password</strong><br>
+            Next time you log in on; this browser, just click your profile <br>
+            picture instead of typing a password.
+            <aside id="ok"> OK</aside> <aside class="notnow"> Not Now</aside>
+        </p>
+            <p class="lastmid"> <img src="cicon.jpg" class="cicon"> <aside id="chamber"> Whats on your mind Chamberlain? </aside> </p>
+    </div>
+
+    <div>
+        <a class="end1">
+            <img src="cake.jpg"> <center class="finish1"> <head>Birthdays</head> </center>
+            <p>
+                <strong> Stanley Olewe and </strong><br>
+                2 others have their birthdays today.
+            </p>
+        </a>
+        <a class="end2">
+            <hr><h3> Sponsored </h3>
+            <img src="domanimation.jpg" > <center class="finish2" > Vic-cars <br>
+            Victor cars ltd .com.ng
+            </center>
+            <img src="friendsfam.jpg"> <center class="finish"> Born for Christ Mission <br>
+            where GOD'S gospel is preached BCM.
+            <hr></center>
+        </a>
+        <p>
+            <ul class="last">
+                <li id="contact"> Contacts </li>
+                <li class="lastright2"> <img src="vidicon.jpg" alt="video call"> </li>
+                <li class="lastright2"> <img src="searcion.png" alt="search"> </li>
+                <li class="lastright2"> <img src="3x3con.png" alt="menu"> </li>
+            </ul>
+        </p>
+        <p class="friends">
+            <a> <img src="collins.jpg"> <strong id="contactname"> Collins </strong> </a> <br>
+            <a> <img src="kenneth.jpg"> <strong id="contactname"> Kenneth </strong> </a> <br>
+            <a> <img src="stanley.jpg"> <strong id="contactname"> Stanley </strong> </a> <br>
+            <a> <img src="victor.jpg"> <strong id="contactname"> Victor.A </strong> </a> <br>
+        </p>
+    </div>
+</div>
+
+<body>
+
+</body>
+</html>
